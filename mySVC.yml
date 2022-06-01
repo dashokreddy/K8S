@@ -3,7 +3,7 @@ kind: Service
 metadata:
    name: mylogin-svc
    labels:
-     app: myonlineapp
+     app: mylogin
 spec:
   type: NodePort
   ports:
@@ -11,4 +11,4 @@ spec:
     nodeport: 30001
     protocol: TCP
 selector: 
-   app: myonlineapp
+   app: mylogin

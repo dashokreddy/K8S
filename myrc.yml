@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
       - name: mylogin-container
-        image: 8919246895/myjavaimage:1
+        image: 8919246895/myjavaimage:2
         ports:
          - containerPort: 8080
